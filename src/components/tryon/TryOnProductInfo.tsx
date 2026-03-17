@@ -27,7 +27,7 @@ const TryOnProductInfo = ({ necklace, selectedColor, onSelectColor, onAddToCart,
           <h2 className="font-display text-2xl font-bold text-foreground">{necklace.nameVi}</h2>
           <span className="shrink-0 bg-primary/10 text-primary font-body text-xs font-semibold px-3 py-1 rounded-full">Vòng 18K</span>
         </div>
-        <p className="font-display text-3xl font-bold text-foreground mt-2">{necklace.priceDisplay}</p>
+        <p className="font-body text-3xl font-bold text-foreground mt-2">{necklace.priceDisplay}</p>
       </div>
       <div className="flex items-center gap-2">
         <div className="flex">{[1,2,3,4,5].map((s) => <Star key={s} className={`w-4 h-4 ${s <= 4 ? "text-yellow-500 fill-yellow-500" : "text-yellow-500 fill-yellow-500 opacity-60"}`} />)}</div>
