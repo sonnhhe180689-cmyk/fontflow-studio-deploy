@@ -52,7 +52,7 @@ const Footer = () => {
             <h4 className="font-display text-lg font-semibold mb-4">Giờ Làm Việc</h4>
             <div className="flex items-start gap-2">
               <Clock className="w-4 h-4 mt-0.5 text-primary" />
-              <div className="font-body text-sm tracking-wider text-primary-foreground/70">
+              <div className="font-heading text-sm tracking-wider text-primary-foreground/70">
                 <p>Thứ 2 - Chủ Nhật</p>
                 <p>9:00 - 21:00</p>
               </div>
