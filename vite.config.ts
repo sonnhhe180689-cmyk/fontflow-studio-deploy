@@ -11,18 +11,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  plugins: [
-    react(),
-    mode === "development" &&
-      (() => {
-        try {
-          const { componentTagger } = require("lovable-tagger");
-          return componentTagger();
-        } catch {
-          return null;
-        }
-      })(),
-  ].filter(Boolean),
+  plugins: [react()].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
