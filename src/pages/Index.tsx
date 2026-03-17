@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { useCart } from "@/context/CartContext";
 import { products } from "@/data/products";
 import { toast } from "@/hooks/use-toast";
-import { useState, useRef, useCallback } from "react";
+import { useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 
 const services = [
