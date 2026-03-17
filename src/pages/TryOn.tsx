@@ -1,4 +1,4 @@
-import { Upload, Camera, Search, RotateCcw, SlidersHorizontal, Heart, ChevronLeft, ChevronRight, Sparkles, Eye, ShieldCheck, Star } from "lucide-react";
+import "lucide-react";
 import { products } from "@/data/products";
 import { useCart } from "@/context/CartContext";
 import { useFavorites } from "@/context/FavoritesContext";
