@@ -1,5 +1,4 @@
 import { products } from "@/data/products";
-import { products } from "@/data/products";
 import { useCart } from "@/context/CartContext";
 import { useFavorites } from "@/context/FavoritesContext";
 import { toast } from "@/hooks/use-toast";
