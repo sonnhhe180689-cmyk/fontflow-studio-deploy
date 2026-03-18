@@ -70,7 +70,7 @@ const Index = () => {
         <img src={craftsmanship} alt="Nghệ thuật chế tác" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/60 flex items-center justify-center">
           <div className="text-center">
-            <h2 className="font-heading md:text-5xl text-primary-foreground font-bold text-4xl">Nghệ Thuật Chế Tác Vòng Cổ</h2>
+            <h2 className="font-heading md:text-5xl text-primary-foreground font-bold text-6xl">Nghệ Thuật Chế Tác Vòng Cổ</h2>
             <p className="font-body tracking-[0.3em] uppercase text-primary-foreground/80 mt-3 text-base">Tạo tác tinh xảo từng chi tiết</p>
             <button
               onClick={() => setShowVideo(true)}
