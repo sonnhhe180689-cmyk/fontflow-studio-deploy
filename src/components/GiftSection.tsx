@@ -24,12 +24,12 @@ const GiftSection = () => {
           <h2 className="section-title">Quà Tặng Tri Ân Khách Hàng</h2>
           <p className="section-subtitle">​</p>
           <p className="font-body text-muted-foreground mt-4 max-w-xl mx-auto text-lg py-0 my-[5px]">
-            Tặng kèm 1 món quà nhỏ thay lời cảm ơn của Luna Jewel dành tới các khách hàng
+            ​TẶNG KÈM 1 MÓN QUÀ NHỎ THAY LỜI CẢM ƠN CỦA LUNA JEWEL DÀNH TỚI CÁC KHÁCH HÀNG
+
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {gifts.map((gift, index) =>
-          <div key={gift.id} className="bg-card rounded-lg overflow-hidden shadow-sm group cursor-pointer hover:shadow-lg transition-all duration-300">
+          {gifts.map((gift, index) => <div key={gift.id} className="bg-card rounded-lg overflow-hidden shadow-sm group cursor-pointer hover:shadow-lg transition-all duration-300">
               <div className="overflow-hidden">
                 <img src={mysteryImages[index]} alt="Hộp quà bí ẩn" className="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-110" />
               </div>
