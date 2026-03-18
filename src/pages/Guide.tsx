@@ -1,4 +1,4 @@
-import { Camera, Sparkles, Heart, ShoppingCart, CheckCircle, SlidersHorizontal, Search } from "lucide-react";
+import { Camera, Sparkles, ShoppingCart, CheckCircle, SlidersHorizontal, Search } from "lucide-react";
 import bgFaq from "@/assets/bg-showroom-tiffany-faq.png";
 import { Link } from "react-router-dom";
 import guideBg1 from "@/assets/guide-bg-1.jpg";
@@ -7,7 +7,7 @@ import guideBg3 from "@/assets/guide-bg-3.jpg";
 import guideBg4 from "@/assets/guide-bg-4.jpg";
 import guideBg5 from "@/assets/guide-bg-5.jpg";
 
-const guideBgs = [guideBg1, guideBg2, guideBg3, guideBg4, guideBg5];
+const guideBgs = [guideBg1, guideBg2, guideBg3, guideBg4];
 
 const steps = [
   {
@@ -29,14 +29,8 @@ const steps = [
     tips: ["Kéo thả vòng cổ trên ảnh để thay đổi vị trí", "Chỉnh kích thước từ 30% đến 200%", "Xoay vòng cổ và điều chỉnh độ trong suốt cho tự nhiên"],
   },
   {
-    icon: <Heart className="w-6 h-6" />,
-    title: "Bước 4: Yêu Thích & So Sánh",
-    desc: "Nhấn biểu tượng ❤️ trên mỗi sản phẩm để lưu vào danh sách yêu thích. Các vòng cổ đã thích sẽ hiển thị ở cột bên phải, giúp bạn dễ dàng so sánh và chọn lại nhanh chóng.",
-    tips: ["Nhấn ❤️ trên ảnh sản phẩm để thêm yêu thích", "Nhấn vào vòng yêu thích để thử lại ngay", "So sánh nhiều mẫu trước khi quyết định"],
-  },
-  {
     icon: <ShoppingCart className="w-6 h-6" />,
-    title: "Bước 5: Thêm Vào Giỏ Hàng",
+    title: "Bước 4: Thêm Vào Giỏ Hàng",
     desc: "Khi đã chọn được mẫu ưng ý, nhấn nút \"Thêm Vào Giỏ Hàng\" để đặt hàng. Giỏ hàng sẽ hiển thị ở góc trên bên phải màn hình.",
     tips: ["Kiểm tra kỹ tên và giá sản phẩm", "Xem lại giỏ hàng trước khi thanh toán", "Liên hệ hotline nếu cần hỗ trợ thêm"],
   },
