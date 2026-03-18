@@ -22,7 +22,7 @@ const slides = [
 },
 {
   image: hero3,
-  title: "KHÔNG GIAN SANG TRỌNG",
+  title: "KHÔNG GIAN\nSANG TRỌNG",
   subtitle: "Trải nghiệm đẳng cấp thượng lưu.",
   cta: "Tìm Hiểu Thêm",
   link: "/lien-he"
