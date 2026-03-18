@@ -1,4 +1,4 @@
-import { Camera, Sparkles, Heart, ShoppingCart, CheckCircle, SlidersHorizontal, Search } from "lucide-react";
+import { Camera, Sparkles, ShoppingCart, CheckCircle, SlidersHorizontal, Search } from "lucide-react";
 import bgFaq from "@/assets/bg-showroom-tiffany-faq.png";
 import { Link } from "react-router-dom";
 import guideBg1 from "@/assets/guide-bg-1.jpg";
