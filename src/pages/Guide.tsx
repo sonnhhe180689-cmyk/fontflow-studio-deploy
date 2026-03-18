@@ -7,7 +7,7 @@ import guideBg3 from "@/assets/guide-bg-3.jpg";
 import guideBg4 from "@/assets/guide-bg-4.jpg";
 import guideBg5 from "@/assets/guide-bg-5.jpg";
 
-const guideBgs = [guideBg1, guideBg2, guideBg3, guideBg4, guideBg5];
+const guideBgs = [guideBg1, guideBg2, guideBg3, guideBg4];
 
 const steps = [
   {
