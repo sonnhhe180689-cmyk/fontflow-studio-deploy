@@ -76,7 +76,7 @@ const HeroCarousel = () => {
               transitionDelay: "0.2s"
             }}>
             
-            <h1 className="font-display lg:text-7xl text-primary-foreground leading-[1.2] whitespace-pre-line md:text-6xl font-extrabold mx-0 px-0 font-serif text-5xl">
+            <h1 className="font-display lg:text-7xl text-primary-foreground leading-[1.2] whitespace-pre-line md:text-6xl font-extrabold mx-0 px-0 font-serif text-6xl">
               {slides[current].title}
             </h1>
             <p className="font-heading text-lg md:text-xl text-primary-foreground/90 mt-4">
